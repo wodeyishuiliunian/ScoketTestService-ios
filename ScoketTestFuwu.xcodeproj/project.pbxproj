@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00EF0E81DF14E8700C818A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A00EF0E71DF14E8700C818A0 /* main.m */; };
+		A00EF0EB1DF14E8700C818A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A00EF0EA1DF14E8700C818A0 /* AppDelegate.m */; };
+		A00EF0EE1DF14E8700C818A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00EF0ED1DF14E8700C818A0 /* ViewController.m */; };
+		A00EF0F11DF14E8700C818A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EF0EF1DF14E8700C818A0 /* Main.storyboard */; };
+		A00EF0F31DF14E8700C818A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00EF0F21DF14E8700C818A0 /* Assets.xcassets */; };
+		A00EF0F61DF14E8700C818A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EF0F41DF14E8700C818A0 /* LaunchScreen.storyboard */; };
+		A00EF1011DF14E8700C818A0 /* ScoketTestFuwuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00EF1001DF14E8700C818A0 /* ScoketTestFuwuTests.m */; };
+		A00EF10C1DF14E8700C818A0 /* ScoketTestFuwuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00EF10B1DF14E8700C818A0 /* ScoketTestFuwuUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00EF0FD1DF14E8700C818A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00EF0DB1DF14E8600C818A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00EF0E21DF14E8700C818A0;
+			remoteInfo = ScoketTestFuwu;
+		};
+		A00EF1081DF14E8700C818A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00EF0DB1DF14E8600C818A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00EF0E21DF14E8700C818A0;
+			remoteInfo = ScoketTestFuwu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00EF0E31DF14E8700C818A0 /* ScoketTestFuwu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoketTestFuwu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00EF0E71DF14E8700C818A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A00EF0E91DF14E8700C818A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A00EF0EA1DF14E8700C818A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A00EF0EC1DF14E8700C818A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A00EF0ED1DF14E8700C818A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A00EF0F01DF14E8700C818A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00EF0F21DF14E8700C818A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00EF0F51DF14E8700C818A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00EF0F71DF14E8700C818A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00EF0FC1DF14E8700C818A0 /* ScoketTestFuwuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoketTestFuwuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00EF1001DF14E8700C818A0 /* ScoketTestFuwuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoketTestFuwuTests.m; sourceTree = "<group>"; };
+		A00EF1021DF14E8700C818A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00EF1071DF14E8700C818A0 /* ScoketTestFuwuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoketTestFuwuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00EF10B1DF14E8700C818A0 /* ScoketTestFuwuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoketTestFuwuUITests.m; sourceTree = "<group>"; };
+		A00EF10D1DF14E8700C818A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00EF0E01DF14E8700C818A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00EF0F91DF14E8700C818A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00EF1041DF14E8700C818A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00EF0DA1DF14E8600C818A0 = {
+			isa = PBXGroup;
+			children = (
+				A00EF0E51DF14E8700C818A0 /* ScoketTestFuwu */,
+				A00EF0FF1DF14E8700C818A0 /* ScoketTestFuwuTests */,
+				A00EF10A1DF14E8700C818A0 /* ScoketTestFuwuUITests */,
+				A00EF0E41DF14E8700C818A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00EF0E41DF14E8700C818A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00EF0E31DF14E8700C818A0 /* ScoketTestFuwu.app */,
+				A00EF0FC1DF14E8700C818A0 /* ScoketTestFuwuTests.xctest */,
+				A00EF1071DF14E8700C818A0 /* ScoketTestFuwuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00EF0E51DF14E8700C818A0 /* ScoketTestFuwu */ = {
+			isa = PBXGroup;
+			children = (
+				A00EF0E91DF14E8700C818A0 /* AppDelegate.h */,
+				A00EF0EA1DF14E8700C818A0 /* AppDelegate.m */,
+				A00EF0EC1DF14E8700C818A0 /* ViewController.h */,
+				A00EF0ED1DF14E8700C818A0 /* ViewController.m */,
+				A00EF0EF1DF14E8700C818A0 /* Main.storyboard */,
+				A00EF0F21DF14E8700C818A0 /* Assets.xcassets */,
+				A00EF0F41DF14E8700C818A0 /* LaunchScreen.storyboard */,
+				A00EF0F71DF14E8700C818A0 /* Info.plist */,
+				A00EF0E61DF14E8700C818A0 /* Supporting Files */,
+			);
+			path = ScoketTestFuwu;
+			sourceTree = "<group>";
+		};
+		A00EF0E61DF14E8700C818A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00EF0E71DF14E8700C818A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A00EF0FF1DF14E8700C818A0 /* ScoketTestFuwuTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00EF1001DF14E8700C818A0 /* ScoketTestFuwuTests.m */,
+				A00EF1021DF14E8700C818A0 /* Info.plist */,
+			);
+			path = ScoketTestFuwuTests;
+			sourceTree = "<group>";
+		};
+		A00EF10A1DF14E8700C818A0 /* ScoketTestFuwuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A00EF10B1DF14E8700C818A0 /* ScoketTestFuwuUITests.m */,
+				A00EF10D1DF14E8700C818A0 /* Info.plist */,
+			);
+			path = ScoketTestFuwuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00EF0E21DF14E8700C818A0 /* ScoketTestFuwu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00EF1101DF14E8700C818A0 /* Build configuration list for PBXNativeTarget "ScoketTestFuwu" */;
+			buildPhases = (
+				A00EF0DF1DF14E8700C818A0 /* Sources */,
+				A00EF0E01DF14E8700C818A0 /* Frameworks */,
+				A00EF0E11DF14E8700C818A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoketTestFuwu;
+			productName = ScoketTestFuwu;
+			productReference = A00EF0E31DF14E8700C818A0 /* ScoketTestFuwu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00EF0FB1DF14E8700C818A0 /* ScoketTestFuwuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00EF1131DF14E8700C818A0 /* Build configuration list for PBXNativeTarget "ScoketTestFuwuTests" */;
+			buildPhases = (
+				A00EF0F81DF14E8700C818A0 /* Sources */,
+				A00EF0F91DF14E8700C818A0 /* Frameworks */,
+				A00EF0FA1DF14E8700C818A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00EF0FE1DF14E8700C818A0 /* PBXTargetDependency */,
+			);
+			name = ScoketTestFuwuTests;
+			productName = ScoketTestFuwuTests;
+			productReference = A00EF0FC1DF14E8700C818A0 /* ScoketTestFuwuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00EF1061DF14E8700C818A0 /* ScoketTestFuwuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00EF1161DF14E8700C818A0 /* Build configuration list for PBXNativeTarget "ScoketTestFuwuUITests" */;
+			buildPhases = (
+				A00EF1031DF14E8700C818A0 /* Sources */,
+				A00EF1041DF14E8700C818A0 /* Frameworks */,
+				A00EF1051DF14E8700C818A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00EF1091DF14E8700C818A0 /* PBXTargetDependency */,
+			);
+			name = ScoketTestFuwuUITests;
+			productName = ScoketTestFuwuUITests;
+			productReference = A00EF1071DF14E8700C818A0 /* ScoketTestFuwuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00EF0DB1DF14E8600C818A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = pang;
+				TargetAttributes = {
+					A00EF0E21DF14E8700C818A0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A00EF0FB1DF14E8700C818A0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A00EF0E21DF14E8700C818A0;
+					};
+					A00EF1061DF14E8700C818A0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A00EF0E21DF14E8700C818A0;
+					};
+				};
+			};
+			buildConfigurationList = A00EF0DE1DF14E8600C818A0 /* Build configuration list for PBXProject "ScoketTestFuwu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00EF0DA1DF14E8600C818A0;
+			productRefGroup = A00EF0E41DF14E8700C818A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00EF0E21DF14E8700C818A0 /* ScoketTestFuwu */,
+				A00EF0FB1DF14E8700C818A0 /* ScoketTestFuwuTests */,
+				A00EF1061DF14E8700C818A0 /* ScoketTestFuwuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00EF0E11DF14E8700C818A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00EF0F61DF14E8700C818A0 /* LaunchScreen.storyboard in Resources */,
+				A00EF0F31DF14E8700C818A0 /* Assets.xcassets in Resources */,
+				A00EF0F11DF14E8700C818A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00EF0FA1DF14E8700C818A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00EF1051DF14E8700C818A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00EF0DF1DF14E8700C818A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00EF0EE1DF14E8700C818A0 /* ViewController.m in Sources */,
+				A00EF0EB1DF14E8700C818A0 /* AppDelegate.m in Sources */,
+				A00EF0E81DF14E8700C818A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00EF0F81DF14E8700C818A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00EF1011DF14E8700C818A0 /* ScoketTestFuwuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00EF1031DF14E8700C818A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00EF10C1DF14E8700C818A0 /* ScoketTestFuwuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00EF0FE1DF14E8700C818A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00EF0E21DF14E8700C818A0 /* ScoketTestFuwu */;
+			targetProxy = A00EF0FD1DF14E8700C818A0 /* PBXContainerItemProxy */;
+		};
+		A00EF1091DF14E8700C818A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00EF0E21DF14E8700C818A0 /* ScoketTestFuwu */;
+			targetProxy = A00EF1081DF14E8700C818A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A00EF0EF1DF14E8700C818A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00EF0F01DF14E8700C818A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00EF0F41DF14E8700C818A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00EF0F51DF14E8700C818A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00EF10E1DF14E8700C818A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00EF10F1DF14E8700C818A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00EF1111DF14E8700C818A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScoketTestFuwu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.ScoketTestFuwu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A00EF1121DF14E8700C818A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScoketTestFuwu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.ScoketTestFuwu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A00EF1141DF14E8700C818A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScoketTestFuwuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.ScoketTestFuwuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoketTestFuwu.app/ScoketTestFuwu";
+			};
+			name = Debug;
+		};
+		A00EF1151DF14E8700C818A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScoketTestFuwuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.ScoketTestFuwuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoketTestFuwu.app/ScoketTestFuwu";
+			};
+			name = Release;
+		};
+		A00EF1171DF14E8700C818A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScoketTestFuwuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.ScoketTestFuwuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScoketTestFuwu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A00EF1181DF14E8700C818A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScoketTestFuwuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.ScoketTestFuwuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScoketTestFuwu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00EF0DE1DF14E8600C818A0 /* Build configuration list for PBXProject "ScoketTestFuwu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00EF10E1DF14E8700C818A0 /* Debug */,
+				A00EF10F1DF14E8700C818A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00EF1101DF14E8700C818A0 /* Build configuration list for PBXNativeTarget "ScoketTestFuwu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00EF1111DF14E8700C818A0 /* Debug */,
+				A00EF1121DF14E8700C818A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A00EF1131DF14E8700C818A0 /* Build configuration list for PBXNativeTarget "ScoketTestFuwuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00EF1141DF14E8700C818A0 /* Debug */,
+				A00EF1151DF14E8700C818A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A00EF1161DF14E8700C818A0 /* Build configuration list for PBXNativeTarget "ScoketTestFuwuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00EF1171DF14E8700C818A0 /* Debug */,
+				A00EF1181DF14E8700C818A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00EF0DB1DF14E8600C818A0 /* Project object */;
+}
