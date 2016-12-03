@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UITextFieldDelegate>
+@property(nonatomic, strong)IBOutlet UITextField * portText;
+@property(nonatomic, strong)IBOutlet UITextField * sengMsgText;
+@property(nonatomic, strong)IBOutlet UITextView  * readMsgText;
 
 @end
 

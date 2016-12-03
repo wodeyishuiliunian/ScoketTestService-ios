@@ -15,6 +15,7 @@
 		A00EF0F61DF14E8700C818A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EF0F41DF14E8700C818A0 /* LaunchScreen.storyboard */; };
 		A00EF1011DF14E8700C818A0 /* ScoketTestFuwuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00EF1001DF14E8700C818A0 /* ScoketTestFuwuTests.m */; };
 		A00EF10C1DF14E8700C818A0 /* ScoketTestFuwuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00EF10B1DF14E8700C818A0 /* ScoketTestFuwuUITests.m */; };
+		A00EF11B1DF1514800C818A0 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A00EF11A1DF1514800C818A0 /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A00EF1071DF14E8700C818A0 /* ScoketTestFuwuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoketTestFuwuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00EF10B1DF14E8700C818A0 /* ScoketTestFuwuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoketTestFuwuUITests.m; sourceTree = "<group>"; };
 		A00EF10D1DF14E8700C818A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00EF1191DF1514800C818A0 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A00EF11A1DF1514800C818A0 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		A00EF0E51DF14E8700C818A0 /* ScoketTestFuwu */ = {
 			isa = PBXGroup;
 			children = (
+				A00EF1191DF1514800C818A0 /* GCDAsyncSocket.h */,
+				A00EF11A1DF1514800C818A0 /* GCDAsyncSocket.m */,
 				A00EF0E91DF14E8700C818A0 /* AppDelegate.h */,
 				A00EF0EA1DF14E8700C818A0 /* AppDelegate.m */,
 				A00EF0EC1DF14E8700C818A0 /* ViewController.h */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00EF11B1DF1514800C818A0 /* GCDAsyncSocket.m in Sources */,
 				A00EF0EE1DF14E8700C818A0 /* ViewController.m in Sources */,
 				A00EF0EB1DF14E8700C818A0 /* AppDelegate.m in Sources */,
 				A00EF0E81DF14E8700C818A0 /* main.m in Sources */,
@@ -414,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScoketTestFuwu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.ScoketTestFuwu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScoketTestFuwu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.ScoketTestFuwu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
