@@ -40,8 +40,6 @@
     } else {
         [self addText:@"端口开放失败"];
     }
-    //开启主线程循环
-//    [[NSRunLoop mainRunLoop] run];
 
 }
 -(IBAction)disconnect:(id)sender
